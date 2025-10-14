@@ -3,10 +3,10 @@ function About() {
     <>
         <main className="flex-shrink-0">
             {/* Navigation*/}
-            <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white py-3">
             <div className="container px-5">
-                <a className="navbar-brand" href="index.html">
-                <span className="fw-bolder text-primary">Start Bootstrap</span>
+                <a className="navbar-brand" href="/about">
+                <span className="fw-bolder text-primary">Portfolio</span>
                 </a>
                 <button
                 className="navbar-toggler"
@@ -22,7 +22,7 @@ function About() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                         <li className="nav-item">
-                        <a className="nav-link" href="/About">
+                        <a className="nav-link" href="/">
                             Home
                         </a>
                         </li>
@@ -54,8 +54,17 @@ function About() {
             <div className="container px-5 my-5">
             <div className="text-center mb-5">
                 <h1 className="display-5 fw-bolder mb-0">
-                <span className="text-gradient d-inline">Resume</span>
+                <span className="text-gradient d-inline">About Me</span>
                 </h1>
+                <p className="lead fw-light mb-4">
+                    My name is Start Bootstrap and I help brands grow.
+                </p>
+                <p className="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                    dolorum itaque qui unde quisquam consequatur autem. Eveniet
+                    quasi nobis aliquid cumque officiis sed rem iure ipsa!
+                    Praesentium ratione atque dolorem?
+                </p>
             </div>
             <div className="row gx-5 justify-content-center">
                 <div className="col-lg-11 col-xl-9 col-xxl-8">
@@ -67,7 +76,7 @@ function About() {
                     {/* Note: Set the link href target to a PDF file within your project*/}
                     <a className="btn btn-primary px-4 py-3" href="#!">
                         <div className="d-inline-block bi bi-download me-2" />
-                        Download Resume
+                        Download CV
                     </a>
                     </div>
                     {/* Experience Card 1*/}
@@ -294,22 +303,9 @@ function About() {
         {/* Footer*/}
         <footer className="bg-white py-4 mt-auto">
             <div className="container px-5">
-            <div className="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div className="row align-items-center justify-content-center flex-column flex-sm-row">
                 <div className="col-auto">
-                <div className="small m-0">Copyright © Your Website 2023</div>
-                </div>
-                <div className="col-auto">
-                <a className="small" href="#!">
-                    Privacy
-                </a>
-                <span className="mx-1">·</span>
-                <a className="small" href="#!">
-                    Terms
-                </a>
-                <span className="mx-1">·</span>
-                <a className="small" href="#!">
-                    Contact
-                </a>
+                <div className="small m-0">Copyright © Portfolio 2025</div>
                 </div>
             </div>
             </div>

@@ -3,10 +3,10 @@ function Projects() {
     <>
         <main className="flex-shrink-0">
             {/* Navigation*/}
-            <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white py-3">
             <div className="container px-5">
-                <a className="navbar-brand" href="index.html">
-                <span className="fw-bolder text-primary">Start Bootstrap</span>
+                <a className="navbar-brand" href="/projects">
+                <span className="fw-bolder text-primary">Portfolio</span>
                 </a>
                 <button
                 className="navbar-toggler"
@@ -22,7 +22,7 @@ function Projects() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                         <li className="nav-item">
-                        <a className="nav-link" href="/home">
+                        <a className="nav-link" href="/">
                             Home
                         </a>
                         </li>
@@ -126,22 +126,9 @@ function Projects() {
         {/* Footer*/}
         <footer className="bg-white py-4 mt-auto">
             <div className="container px-5">
-            <div className="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div className="row align-items-center justify-content-center flex-column flex-sm-row">
                 <div className="col-auto">
-                <div className="small m-0">Copyright © Your Website 2023</div>
-                </div>
-                <div className="col-auto">
-                <a className="small" href="#!">
-                    Privacy
-                </a>
-                <span className="mx-1">·</span>
-                <a className="small" href="#!">
-                    Terms
-                </a>
-                <span className="mx-1">·</span>
-                <a className="small" href="#!">
-                    Contact
-                </a>
+                <div className="small m-0">Copyright © Portfolio 2025</div>
                 </div>
             </div>
             </div>

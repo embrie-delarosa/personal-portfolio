@@ -3627,6 +3627,18 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-link:hover {
+  color: var(--bs-nav-link-hover-color);
+  text-decoration: underline;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  color: var(--bs-nav-link-hover-color);
+  text-decoration: underline;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
