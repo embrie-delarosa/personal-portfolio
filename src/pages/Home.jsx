@@ -22,22 +22,27 @@ function Home() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
             <li className="nav-item">
-              <a className="nav-link" href="index.html">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="resume.html">
-                Resume
+              <a className="nav-link" href="/about">
+                About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="projects.html">
+              <a className="nav-link" href="/projects">
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
+              <a className="nav-link" href="/skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
                 Contact
               </a>
             </li>
