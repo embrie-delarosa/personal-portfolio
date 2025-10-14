@@ -88,7 +88,7 @@ function Home() {
                                 <div>
                                     <a
                                     className="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder"
-                                    href="https://username.github.io/personal-portfolio/Embrie%20Dela%20Rosa%20CV.pdf"
+                                    href={`${import.meta.env.BASE_URL}embriedelarosa-cv.pdf`}
                                     download>
                                     <i className="bi bi-download me-2"></i>
                                     Download CV
