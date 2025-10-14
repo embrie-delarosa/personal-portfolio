@@ -22,7 +22,7 @@ function Contact() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                     <li className="nav-item">
-                    <a className="nav-link" href="/">
+                    <a className="nav-link" href="/home">
                         Home
                     </a>
                     </li>
@@ -42,7 +42,7 @@ function Contact() {
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/contact">
+                    <a className="nav-link" href="/">
                         Contact
                     </a>
                     </li>

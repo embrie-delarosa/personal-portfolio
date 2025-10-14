@@ -22,7 +22,7 @@ function Projects() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                         <li className="nav-item">
-                        <a className="nav-link" href="/">
+                        <a className="nav-link" href="/home">
                             Home
                         </a>
                         </li>
@@ -115,7 +115,7 @@ function Projects() {
                 </h2>
                 <a
                     className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
-                    href="contact.html"
+                    href="/contact"
                 >
                     Contact me
                 </a>
