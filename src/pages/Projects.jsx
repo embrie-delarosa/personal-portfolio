@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Projects() {
   return (
     <>
@@ -5,9 +7,9 @@ function Projects() {
             {/* Navigation*/}
             <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-white py-3">
             <div className="container px-5">
-                <a className="navbar-brand" href="/projects">
+                <Link className="navbar-brand" to="/projects">
                 <span className="fw-bolder text-primary">Portfolio</span>
-                </a>
+                </Link>
                 <button
                 className="navbar-toggler"
                 type="button"
@@ -22,29 +24,29 @@ function Projects() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                         <li className="nav-item">
-                        <a className="nav-link" href="/personal-portfolio/">
+                        <Link className="nav-link" to="/">
                             Home
-                        </a>
+                        </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/personal-portfolio/about">
+                        <Link className="nav-link" to="/about">
                             About
-                        </a>
+                        </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/personal-portfolio/projects">
+                        <Link className="nav-link" to="/projects">
                             Projects
-                        </a>
+                        </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/personal-portfolio/skills">
+                        <Link className="nav-link" to="/skills">
                             Skills
-                        </a>
+                        </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="/personal-portfolio/contact">
+                        <Link className="nav-link" to="/contact">
                             Contact
-                        </a>
+                        </Link>
                         </li>
                     </ul>
                 </div>
