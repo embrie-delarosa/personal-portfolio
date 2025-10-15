@@ -56,74 +56,62 @@ function About() {
                 <h1 className="display-5 fw-bolder mb-0">
                 <span className="text-gradient d-inline">About Me</span>
                 </h1>
-                <p className="lead fw-light mb-4">
-                    My name is Start Bootstrap and I help brands grow.
+                <p className="lead fw-light mb-4 " style={{ fontSize: "1.5rem" }}>
+                    My name is Embrie Dela Rosa from Quezon City.
                 </p>
-                <p className="text-muted">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-                    dolorum itaque qui unde quisquam consequatur autem. Eveniet
-                    quasi nobis aliquid cumque officiis sed rem iure ipsa!
-                    Praesentium ratione atque dolorem?
+                <p className="text-muted" style={{ fontSize: "1.5rem" }}>
+                    A dedicated and motivated individual with a passion for learning and self-improvement. Works well both
+                    independently and as part of a team. An adaptable, responsible, and eager individual to develop skills and
+                    contribute to achieving goals effectively.
+
                 </p>
             </div>
             <div className="row gx-5 justify-content-center">
                 <div className="col-lg-11 col-xl-9 col-xxl-8">
-                {/* Experience Section*/}
+                {/* Personal Background Section*/}
                 <section>
                     <div className="d-flex align-items-center justify-content-between mb-4">
-                    <h2 className="text-primary fw-bolder mb-0">Experience</h2>
-                    {/* Download resume button*/}
-                    {/* Note: Set the link href target to a PDF file within your project*/}
-                    <a className="btn btn-primary px-4 py-3" href="#!">
-                        <div className="d-inline-block bi bi-download me-2" />
-                        Download CV
-                    </a>
+                    <h2 className="text-primary fw-bolder mb-0">Personal Background</h2>
                     </div>
-                    {/* Experience Card 1*/}
+                    {/* Personal BG Card 1*/}
                     <div className="card shadow border-0 rounded-4 mb-5">
                     <div className="card-body p-5">
                         <div className="row align-items-center gx-5">
                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                             <div className="bg-light p-4 rounded-4">
                             <div className="text-primary fw-bolder mb-2">
-                                2019 - Present
+                                2023 - Present
                             </div>
-                            <div className="small fw-bolder">Web Developer</div>
-                            <div className="small text-muted">Stark Industries</div>
-                            <div className="small text-muted">Los Angeles, CA</div>
+                            <div className="small fw-bolder">Member</div>
+                            <div className="small text-muted">La Verdad Dance Troupe</div>
+                            <div className="small text-muted">Apalit, Pampanga</div>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus laudantium, voluptatem quis repellendus eaque sit
-                            animi illo ipsam amet officiis corporis sed aliquam non
-                            voluptate corrupti excepturi maxime porro fuga.
+                            Active member of the La Verdad Dance Troupe from 2023 to present. Participates in school and community performances, representing our course in various events. Contributes to choreography, practices regularly, and collaborates with teammates to promote culture, discipline, and creativity.
                             </div>
                         </div>
                         </div>
                     </div>
                     </div>
-                    {/* Experience Card 2*/}
+                    {/* Personal Card 2*/}
                     <div className="card shadow border-0 rounded-4 mb-5">
                     <div className="card-body p-5">
                         <div className="row align-items-center gx-5">
                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                             <div className="bg-light p-4 rounded-4">
                             <div className="text-primary fw-bolder mb-2">
-                                2017 - 2019
+                                2017 - Present
                             </div>
-                            <div className="small fw-bolder">SEM Specialist</div>
-                            <div className="small text-muted">Wayne Enterprises</div>
-                            <div className="small text-muted">Gotham City, NY</div>
+                            <div className="small fw-bolder">Content Creator</div>
+                            <div className="small text-muted">Dela Rosa Twins</div>
+                            <div className="small text-muted">Various social media platforms</div>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus laudantium, voluptatem quis repellendus eaque sit
-                            animi illo ipsam amet officiis corporis sed aliquam non
-                            voluptate corrupti excepturi maxime porro fuga.
+                            Content creator for Dela Rosa Twins from 2017 to present with my twin sister. Produces engaging videos on YouTube and TikTok, reaching thousands of viewers and achieving over a million views on a viral post. Focuses on creative, entertaining, and relatable content that connects with a wide audience.
                             </div>
                         </div>
                         </div>
@@ -140,24 +128,21 @@ function About() {
                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                             <div className="bg-light p-4 rounded-4">
                             <div className="text-secondary fw-bolder mb-2">
-                                2015 - 2017
+                                2025 - Present
                             </div>
                             <div className="mb-2">
-                                <div className="small fw-bolder">Barnett College</div>
-                                <div className="small text-muted">Fairfield, NY</div>
+                                <div className="small fw-bolder">La Verdad Christian College, Inc</div>
+                                <div className="small text-muted">Apalit, Pampanga</div>
                             </div>
                             <div className="fst-italic">
-                                <div className="small text-muted">Master's</div>
-                                <div className="small text-muted">Web Development</div>
+                                <div className="small text-muted">Bachelor of Science in</div>
+                                <div className="small text-muted">Information Systems</div>
                             </div>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus laudantium, voluptatem quis repellendus eaque sit
-                            animi illo ipsam amet officiis corporis sed aliquam non
-                            voluptate corrupti excepturi maxime porro fuga.
+                            Specialized in information systems, combining technology and business solutions. Skilled in programming, data management, and problem-solving, with experience in improving systems, organizing projects, and supporting digital processes.
                             </div>
                         </div>
                         </div>
@@ -170,24 +155,48 @@ function About() {
                         <div className="col text-center text-lg-start mb-4 mb-lg-0">
                             <div className="bg-light p-4 rounded-4">
                             <div className="text-secondary fw-bolder mb-2">
-                                2011 - 2015
+                                2023 - 2025
                             </div>
                             <div className="mb-2">
-                                <div className="small fw-bolder">ULA</div>
-                                <div className="small text-muted">Los Angeles, CA</div>
+                                <div className="small fw-bolder">La Verdad Christian College, Inc</div>
+                                <div className="small text-muted">Apalit, Pampanga</div>
                             </div>
                             <div className="fst-italic">
-                                <div className="small text-muted">Undergraduate</div>
-                                <div className="small text-muted">Computer Science</div>
+                                <div className="small text-muted">Associate in</div>
+                                <div className="small text-muted">Computer Technology</div>
                             </div>
                             </div>
                         </div>
                         <div className="col-lg-8">
                             <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Delectus laudantium, voluptatem quis repellendus eaque sit
-                            animi illo ipsam amet officiis corporis sed aliquam non
-                            voluptate corrupti excepturi maxime porro fuga.
+                            Graduated in Associate in Computer Technology and ladderized to Bachelor of Science in Information Systems, specialized in computer technology, focusing on hardware, software, and networks. Skilled in troubleshooting, system installation, and basic programming. Trained to set up networks, solve technical issues, and ensure computers run efficiently.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    {/* Education Card 3*/}
+                    <div className="card shadow border-0 rounded-4 mb-5">
+                    <div className="card-body p-5">
+                        <div className="row align-items-center gx-5">
+                        <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                            <div className="bg-light p-4 rounded-4">
+                            <div className="text-secondary fw-bolder mb-2">
+                                2022 - 2023
+                            </div>
+                            <div className="mb-2">
+                                <div className="small fw-bolder">Systems Technology Institute College (STI)</div>
+                                <div className="small text-muted">Dasmariñas, Cavite</div>
+                            </div>
+                            <div className="fst-italic">
+                                <div className="small text-muted">Bachelor of Science in</div>
+                                <div className="small text-muted">Information Technology</div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-8">
+                            <div>
+                            Learned the basics of computer systems, programming, and web development, gaining skills in troubleshooting and maintaining computers and networks. Applied technology to solve simple problems and improve task efficiency.
                             </div>
                         </div>
                         </div>
@@ -196,106 +205,6 @@ function About() {
                 </section>
                 {/* Divider*/}
                 <div className="pb-5" />
-                {/* Skills Section*/}
-                <section>
-                    {/* Skillset Card*/}
-                    <div className="card shadow border-0 rounded-4 mb-5">
-                    <div className="card-body p-5">
-                        {/* Professional skills list*/}
-                        <div className="mb-5">
-                        <div className="d-flex align-items-center mb-4">
-                            <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
-                            <i className="bi bi-tools" />
-                            </div>
-                            <h3 className="fw-bolder mb-0">
-                            <span className="text-gradient d-inline">
-                                Professional Skills
-                            </span>
-                            </h3>
-                        </div>
-                        <div className="row row-cols-1 row-cols-md-3 mb-4">
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                SEO/SEM Marketing
-                            </div>
-                            </div>
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Statistical Analysis
-                            </div>
-                            </div>
-                            <div className="col">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Web Development
-                            </div>
-                            </div>
-                        </div>
-                        <div className="row row-cols-1 row-cols-md-3">
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Network Security
-                            </div>
-                            </div>
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Adobe Software Suite
-                            </div>
-                            </div>
-                            <div className="col">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                User Interface Design
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        {/* Languages list*/}
-                        <div className="mb-0">
-                        <div className="d-flex align-items-center mb-4">
-                            <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
-                            <i className="bi bi-code-slash" />
-                            </div>
-                            <h3 className="fw-bolder mb-0">
-                            <span className="text-gradient d-inline">Languages</span>
-                            </h3>
-                        </div>
-                        <div className="row row-cols-1 row-cols-md-3 mb-4">
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                HTML
-                            </div>
-                            </div>
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                CSS
-                            </div>
-                            </div>
-                            <div className="col">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                JavaScript
-                            </div>
-                            </div>
-                        </div>
-                        <div className="row row-cols-1 row-cols-md-3">
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Python
-                            </div>
-                            </div>
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Ruby
-                            </div>
-                            </div>
-                            <div className="col">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Node.js
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
                 </div>
             </div>
             </div>
