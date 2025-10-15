@@ -75,41 +75,24 @@ function Skills() {
                             </div>
                             <h3 className="fw-bolder mb-0">
                             <span className="text-gradient d-inline">
-                                Technical Skills
+                                Professional Skills
                             </span>
                             </h3>
                         </div>
                         <div className="row row-cols-1 row-cols-md-3 mb-4">
                             <div className="col mb-4 mb-md-0">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                SEO/SEM Marketing
+                                E-Commerce Marketing
                             </div>
                             </div>
                             <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Statistical Analysis
-                            </div>
-                            </div>
-                            <div className="col">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
                                 Web Development
                             </div>
                             </div>
-                        </div>
-                        <div className="row row-cols-1 row-cols-md-3">
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Network Security
-                            </div>
-                            </div>
-                            <div className="col mb-4 mb-md-0">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Adobe Software Suite
-                            </div>
-                            </div>
                             <div className="col">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                User Interface Design
+                                UI/UX Awareness
                             </div>
                             </div>
                         </div>
@@ -132,32 +115,27 @@ function Skills() {
                             </div>
                             <div className="col mb-4 mb-md-0">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                CSS
+                                Java
                             </div>
                             </div>
                             <div className="col">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                JavaScript
+                                Laravel
                             </div>
                             </div>
                         </div>
                         <div className="row row-cols-1 row-cols-md-3">
                             <div className="col mb-4 mb-md-0">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Python
+                                PHP
                             </div>
                             </div>
                             <div className="col mb-4 mb-md-0">
                             <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Ruby
+                                C#
                             </div>
                             </div>
-                            <div className="col">
-                            <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
-                                Node.js
-                            </div>
-                            </div>
-                        </div>
+                       </div>
                         </div>
                     </div>
                     </div>
@@ -165,17 +143,6 @@ function Skills() {
                 </div>
             </div>
             </div>
-            {/* Skills Section*/}
-                <section>
-                    <div className="d-flex align-items-center justify-content-between mb-4">
-                    {/* Download resume button*/}
-                    {/* Note: Set the link href target to a PDF file within your project*/}
-                    <a className="btn btn-primary px-4 py-3" href="Embrie Dela Rosa CV.pdf" download>
-                        <div className="d-inline-block bi bi-download me-2" />
-                        Download CV
-                    </a>
-                    </div>
-                </section>
         </main>
         {/* Footer*/}
         <footer className="bg-white py-4 mt-auto">
