@@ -65,17 +65,23 @@ function Projects() {
                     <div className="card-body p-0">
                         <div className="d-flex align-items-center">
                         <div className="p-5">
-                            <h2 className="fw-bolder">Project Name 1</h2>
+                            <h2 className="fw-bolder">Note App</h2>
+                            <div className="small fw-bolder">Description:</div>
+                            <p>A web-based note-taking application that allows users to create, read, update, and delete notes with up to 10,000 characters. Notes are displayed in a horizontal scroll layout for easy navigation.</p>
+                            <div className="small fw-bolder">Technologies Used:</div>
+                            <p>Laravel, PHP, MySQL, HTML, CSS, JavaScript</p>
+                            <div className="small fw-bolder">Key Takeaways / Challenges:</div>
+                            <p>Learned to implement full CRUD functionality, design responsive note cards, and manage large text inputs efficiently.</p>
+                            <div className="small fw-bolder">Repository / Demo:</div>
                             <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Eius at enim eum illum aperiam placeat esse? Mollitia
-                            omnis minima saepe recusandae libero, iste ad asperiores!
-                            Explicabo commodi quo itaque! Ipsam!
+                                <a href="https://github.com/embriedelarosa/note1-app" target="_blank">
+                                    Note App GitHub Repo
+                                </a>
                             </p>
                         </div>
                         <img
                             className="img-fluid"
-                            src="https://dummyimage.com/300x400/343a40/6c757d"
+                            src="https://theninehertz.com/wp-content/uploads/2021/11/Docket-Management-Web-App.jpg"
                             alt="..."
                         />
                         </div>
@@ -86,39 +92,23 @@ function Projects() {
                     <div className="card-body p-0">
                         <div className="d-flex align-items-center">
                         <div className="p-5">
-                            <h2 className="fw-bolder">Project Name 2</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Eius at enim eum illum aperiam placeat esse? Mollitia
-                            omnis minima saepe recusandae libero, iste ad asperiores!
-                            Explicabo commodi quo itaque! Ipsam!
-                            </p>
+                            <h2 className="fw-bolder">Personal Portfolio</h2>
+                            <div className="small fw-bolder">Description:</div>
+                            <p>A personal portfolio website showcasing my personal background, skills, and experience. The site is designed to be visually appealing and easy to navigate.</p>
+                            <div className="small fw-bolder">Technologies Used:</div>
+                            <p>HTML, CSS</p>
+                            <div className="small fw-bolder">Key Takeaways / Challenges:</div>
+                            <p>Learned to implement responsive design principles and optimize the user experience across different devices.</p>
                         </div>
                         <img
                             className="img-fluid"
-                            src="https://dummyimage.com/300x400/343a40/6c757d"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxWJPkgzVnXRrxFy6aadrY93gZQrt0Rcy-AA3LdM4hgAlW7cFDZtFtOHOtLIDPZZ44HRP1H51WN9AV2OQBo7QkN1L0pu70CWEzGT7KOcTabDexM_xVvDyqNIPEbYosjciex8uet1d5GDUR/s600/Create+a+Responsive+Personal+Portfolio+Website+using+HTML+CSS.jpg"
                             alt="..."
                         />
                         </div>
                     </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            </section>
-            {/* Call to action section*/}
-            <section className="py-5 bg-gradient-primary-to-secondary text-white">
-            <div className="container px-5 my-5">
-                <div className="text-center">
-                <h2 className="display-4 fw-bolder mb-4">
-                    Let's build something together
-                </h2>
-                <a
-                    className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
-                    href="/contact"
-                >
-                    Contact me
-                </a>
                 </div>
             </div>
             </section>
