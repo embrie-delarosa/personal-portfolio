@@ -59,31 +59,18 @@ function Home() {
                             <div className="text-center text-xxl-start">
                                 <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
                                     <div className="text-uppercase">
-                                    Development · Marketing
+                                    Web Development · Marketing
                                     </div>
                                 </div>
                                 <div className="fs-3 fw-light text-muted">
-                                    I can help your business to
+                                    Hi! I'm
                                 </div>
                             <h1 className="display-3 fw-bolder mb-5">
                                 <span className="text-gradient d-inline">
-                                Get online and grow fast
+                                Embrie Dela Rosa
                                 </span>
                             </h1>
-                            <div className="d-flex justify-content-center align-items-center gap-4">
-                                {/* Social media icons*/}
-                                <div className="d-flex justify-content fs-2 gap-4">
-                                    <a className="text-gradient" href="https://www.facebook.com/embrie.dela.rosa/">
-                                    <i className="bi bi-facebook"></i>
-                                    </a>
-                                    <a className="text-gradient" href="https://www.linkedin.com/in/embrie-dela-rosa-65288a323">
-                                    <i className="bi bi-linkedin"></i>
-                                    </a>
-                                    <a className="text-gradient" href="https://github.com/embrie-delarosa">
-                                    <i className="bi bi-github"></i>
-                                    </a>
-                                </div>
-                                
+                            <div className="d-flex justify-content-center align-items-center gap-4">                               
                                 {/* Download CV button*/}
                                 <div>
                                     <a
@@ -107,7 +94,7 @@ function Home() {
                                 <img
                                 className="profile-img"
                                 src="public/profile.png"
-                                alt="Profile"
+                                alt="..."
                                 />
                                 <div className="dots-1">
                                 {/* SVG Dots*/}
