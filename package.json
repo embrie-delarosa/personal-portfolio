@@ -1,9 +1,9 @@
-{
+{  
+  "homepage": "https://embrie-delarosa.github.io/personal-portfolio/",
   "name": "personal-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://embrie-delarosa.github.io/personal-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
